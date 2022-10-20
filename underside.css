@@ -1,0 +1,254 @@
+body {
+ background-color: #C5E1BA;
+ box-sizing: border-box;
+ display: inline-block;
+ margin: 0%;
+ padding: 0%;
+}
+
+/* logo */
+.logo {
+width: 200px;
+height: 150px;
+margin-left: 0px;
+margin-right: 100px;
+justify-content: left;
+}
+
+/* billede til forsiden */
+.image-grid {
+display:flexbox;
+height: 725px;
+width: 1450px;
+margin-right: 0%;
+margin-bottom: 0%;
+margin-left: 0%;
+justify-content: center;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  width: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 0%;
+  margin-left: 0%;
+  margin-top: 60px;
+  font-display: bold;
+
+
+}
+  
+  
+ li {
+  display: inline;
+  float: left;
+  
+ }
+
+
+
+ ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+
+li a {
+  display:block;
+  color: black;
+  text-align:right;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  text-size-adjust: x-large;
+}
+ 
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  ;
+ }
+  
+
+ 
+.thailand {
+  position:absolute;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+/* thailand tekstboks */
+.tekstboks1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Centered text */
+
+.tekstboks3 {
+  position: absolute;
+  top: 77%;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 350px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  font-weight: normal;
+}
+
+/* ikoner til footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    background-color:#A1D8CA;
+    color:black;
+    text-align: center;
+  }
+
+.facebook {
+  margin-top: 600px;
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: fixed;
+  margin-left: 0px;
+}
+  
+.tiktok {
+  margin-top: 605px;
+  height: 25px;
+  width: 25px;
+  display: block;
+  position: fixed;
+  margin-left: 30px;
+}
+  
+.instagram {
+  margin-top: 605px;
+  height: 25px;
+  width: 25px;
+  display: block;
+  position: fixed;
+  margin-left: 60px;
+  }
+      
+
+/* billedegalleri til forside */
+
+.billede1 {
+  margin-top: 950px;
+  float: left;
+  height: 200px;
+  margin-left: 140px;
+  text-align: center;
+  position: relative;
+  color: black;
+  
+}
+
+
+.billede2 {
+  margin-top: 950px;
+  float: left;
+  height: 400px;
+  position: relative;
+}
+
+.billede3 {
+  margin-top: 950px;
+  float: left;
+  margin-right: 100px;
+  position: relative;
+}
+
+/* tekstboks over pasbillede */
+
+.forberedelse {
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: 150px;
+color:#A1D8CA;
+font-size: x-large;
+}
+
+.budget {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: 50px;
+color:#A1D8CA;
+font-size: x-large;
+}
+
+.tipsogtricks {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: 10px;
+margin-right: 0px;
+margin-left: 20px;
+color:#A1D8CA;
+font-size: x-large;
+}
+
+/* dropdown 1*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 900px;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #A1D8CA;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dropdown {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
